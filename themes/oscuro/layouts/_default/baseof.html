@@ -1,0 +1,12 @@
+{{ partial "0_utilities/htmlHead.html" . }}
+
+  {{ if .Site.Params.dev.enable}}
+    {{ partial "1_atoms/cssinfo.html" . }}
+  {{ end }}
+  
+  {{ block "main" . }}
+    {{ partial "3_organisms/content.html" . }}
+  {{ end }}
+
+{{ partial "0_utilities/scripts.html" . }}
+{{ partial "0_utilities/htmlFoot.html" . }}

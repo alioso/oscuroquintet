@@ -1,0 +1,23 @@
+.home-grid {
+  /* height: 100%; */
+}
+
+.home-right {
+  height: 75%;
+}
+
+.home-banner {
+  height: 100%;
+  background-image: url('/img/oscuro-front.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.home-header {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: white;
+}

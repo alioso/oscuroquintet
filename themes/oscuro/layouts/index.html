@@ -1,0 +1,40 @@
+{{ define "main" }}
+  <div class="home-grid flex h-full">
+    <div class="home-left w-1/2 h-full p-4">
+      <div class="home-banner flex items-center justify-center">
+        <header class="home-header">
+          {{.Title}}
+        </header>
+      </div>
+    </div>
+    <div class="home-right w-1/2 flex p-4 px-0 -mx-2">
+      <div class="home-video relative w-1/3 overflow-hidden px-2">
+        <a class="video-link" href="/about">
+          <video class="video w-full h-full" autoplay playsinline muted loop preload poster="http://i.imgur.com/xHO6DbC.png">
+            <source src='{{ "/vids/sh.mp4" | relURL }}' />
+          </video>
+          {{ partial "0_svgs/title.html" (dict "svg_title" "About") }}
+          <span class="video-link-text">About</span>
+        </a>
+      </div>
+      <div class="home-video relative w-1/3 overflow-hidden px-2">
+        <a class="video-link" href="/events">
+          <video class="video w-full h-full" autoplay playsinline muted loop preload poster="http://i.imgur.com/xHO6DbC.png">
+            <source src='{{ "/vids/jo.mp4" | relURL }}' />
+          </video>
+          {{ partial "0_svgs/title.html" (dict "svg_title" "Events") }}
+          <span class="video-link-text">Events</span>
+        </a>
+      </div>
+      <div class="home-video relative w-1/3 overflow-hidden px-2">
+        <a class="video-link" href="/media">
+          <video class="video w-full h-full" autoplay playsinline muted loop preload poster="http://i.imgur.com/xHO6DbC.png">
+            <source src='{{ "/vids/an.mp4" | relURL }}' />
+          </video>
+          {{ partial "0_svgs/title.html" (dict "svg_title" "Media") }}
+          <span class="video-link-text">Media</span>
+        </a>
+      </div>
+    </div>
+  </div>
+{{ end }}

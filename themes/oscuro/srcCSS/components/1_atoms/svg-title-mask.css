@@ -1,0 +1,50 @@
+.svg-title { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.svg-title text {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 4px;
+}
+
+.svg-title rect {
+  transition: fill 500ms ease-in-out;
+  fill: #fff;
+}
+
+.video-link:hover .svg-title rect {
+  fill: transparent;
+}
+
+.video {
+  object-fit: cover;
+}
+
+.video-link {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.video-link-text {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: white;
+  opacity: 0;
+  transition: opacity 225ms ease-in-out;
+}
+
+.video-link:hover .video-link-text {
+  opacity: 1;
+}

@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="content">
+
+  <div class="header-wrapper">
+    <header class="header max-w-3xl mx-auto py-2 px-4 md:px-8 flex flex-wrap items-center justify-between">
+      {{ block "header" . }}
+        {{ partial "3_organisms/header.html" . }}
+      {{ end }}
+    </header>
+  </div>
+
+    <div class="single-banner flex items-center justify-center" style="background-image: url('/img/{{ .Params.banner }}')">
+      
+    </div>
+
+  <div class="main-wrapper max-w-3xl mx-auto py-2 px-4 md:px-8">
+    <header>
+      <h1>{{ .Title | markdownify }}</h1>
+        {{ partial "1_atoms/post-date" . }}
+        {{ partial "2_molecules/post-categories" . }}
+    </header>
+  </div>
+
+  <div class="main-wrapper max-w-3xl mx-auto py-2 px-4 md:px-8">
+    <main class="main">
+      {{ .Content }}
+    </main>
+  </div>
+</div>
+
+<div class="footer-wrapper bg-l-full-black">
+  <footer class="max-w-3xl mx-auto py-4 px-4 md:px-8 text-white">
+    {{ block "footer" . }}
+      {{ partial "3_organisms/footer.html" . }}
+    {{ end }}
+  </footer>
+</div>
+
+{{ end }}
