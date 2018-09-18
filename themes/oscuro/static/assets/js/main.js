@@ -1,3 +1,7 @@
+function checkLoaded() {
+  return document.readyState === "complete";
+}
+
 // Navigation Toggle
 function toggleNav() {
   const mainMenu = document.getElementById('main-menu');
@@ -14,23 +18,35 @@ function toggleNav() {
 }
 
 //videos
-var vid = document.getElementsByClassName('video');
 
-function playVid() { 
-  vid.play(); 
-} 
 
-function pauseVid(e) { 
+  'use strict';
+
+  var $nav_videos = $('.video');
+  
+  for (var i = 0; i < $nav_videos.length; i++) {
+    var video = $nav_videos[i];
+
+    $($nav_videos[i]).closest('a').on('mouseenter', function() {
+      try {
+        $('video.video', this)[0].play();
+      } catch(e) {}
+    }).on('mouseleave', function() {
+      if ( $('video.video', this).closest(".box.active").length == 1 ) {
+        return;
+      }
+
+      try {
+        $('video.video', this)[0].pause();
+      } catch(e) {}
+    });
+  }
+
   setTimeout(function() {
-    e.pause();
-  }, 100);
-}
+  for (var i = 0; i < $nav_videos.length; i++) {
+    
+      $nav_videos[i].pause();
+    
+  }
+}, 200);
 
-window.onload = function () {
-  setTimeout(function() {
-    for (var i = 0; i < vid.length; i++) {
-      console.log(vid)
-      vid[i].pause();
-    }
-  }, 100);
-}
