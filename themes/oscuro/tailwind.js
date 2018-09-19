@@ -48,6 +48,7 @@ let colors = {
   'o-link': '#333',
   'l-full-black': '#000',
   'l-text': '#333132',
+  'l-orange': '#e67e22',
 
   // Standard Colors
   'transparent': 'transparent',
