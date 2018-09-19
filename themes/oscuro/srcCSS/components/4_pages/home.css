@@ -6,6 +6,11 @@
   height: 85%;
 }
 
+.home-right-b {
+  font-family: 'Oswald', sans-serif;
+  height: 15%;
+}
+
 .home-banner {
   height: 100%;
   background-image: url('/img/oscuro-front.jpg');
