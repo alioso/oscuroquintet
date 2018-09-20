@@ -16,7 +16,7 @@ url = "/events"
 [[menu.main]]
 weight = 3
 name = "Media"
-url = "/events"
+url = "/media"
 
 [[menu.main]]
 weight = 4

@@ -1,9 +1,31 @@
+.single-site-title {
+  z-index: 3;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  top: 20px;
+  left: -5px;
+}
+
 .single-right {
   height: 85%;
 }
 
 .single-right main {
+  margin-top: 50px;
+  padding-right: 30px;
   overflow: auto;
+}
+
+.single-right main .wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.single-right main p:first-child {
+  margin-top: 0;
 }
 
 .single-right-b {

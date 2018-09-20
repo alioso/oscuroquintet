@@ -72,7 +72,7 @@ code {
 }
 
 a {
-  @apply text-o-link;
+  @apply text-o-link font-bold;
   text-decoration: none;
   transition: color 225ms ease-in-out;
 }

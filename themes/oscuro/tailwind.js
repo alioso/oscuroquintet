@@ -45,7 +45,7 @@ View the full documentation at https://tailwindcss.com.
 
 let colors = {
   // Linode Colors
-  'o-link': '#333',
+  'o-link': '#e67e22',
   'l-full-black': '#000',
   'l-text': '#333132',
   'l-orange': '#e67e22',
