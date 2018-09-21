@@ -1,0 +1,11 @@
+{{ define "single_content" }}
+  {{ range last 3 ((where .Site.Pages "Section" "events").ByParam "start_date") }}
+  {{ $t := (.Param "end_date" | time) }}
+    {{ if  le ($t) (now.Unix) }}
+      {{ .Render "summary" }}
+    {{ end }}
+  {{ end }}
+  <div class="mt-8 text-right">
+    <a class="inline-block pt-2 border-t" href="/events">Upcoming Events</a>
+  </div>
+{{ end }}

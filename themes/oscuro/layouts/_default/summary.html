@@ -1,12 +1,9 @@
 <article>
-  <header>
-    <h2>
-      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-    </h2>
-    {{ partial "1_atoms/post-date" . }}
-    {{ partial "2_molecules/post-categories" . }}
-  </header>
-  {{ .Summary }}
-  <hr>
-  <a href="{{ .RelPermalink }}">Read More</a>
+  <h2 class="mb-2"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
+  <div class="font-bold">{{ partial "1_atoms/post-date" . }}</div>
+  {{ if .Params.Location }}
+    {{ .Params.Location }}
+  {{ end }}
+  {{ .Content | safeHTML | truncate 100 }}
+  <div class="mt-2"><a href="{{ .RelPermalink }}">Read More</a></div>
 </article>

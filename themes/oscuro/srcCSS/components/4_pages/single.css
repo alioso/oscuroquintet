@@ -15,17 +15,23 @@
   margin-top: 50px;
   padding-right: 30px;
   overflow: auto;
-}
-
-.single-right main .wrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
+  height: 90%;
+  width: 100%;
+}
+
+.single-right main .wrapper {
+  max-height: 100%;
 }
 
 .single-right main p:first-child {
   margin-top: 0;
+}
+
+.single-right main article:first-child {
+  @apply mb-8;
 }
 
 .single-right-b {

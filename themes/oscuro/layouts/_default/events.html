@@ -1,3 +1,11 @@
 {{ define "single_content" }}
-  popopopopop
+  {{ range last 3 ((where .Pages "Section" "events").ByParam "start_date") }}
+  {{ $t := (time .Params.end_date) }}
+    {{ if  ge ($t.Unix) (now.Unix) }}
+      {{ .Render "summary" }}
+    {{ end }}
+  {{ end }}
+  <div class="mt-8 text-right">
+    <a class="inline-block pt-2 border-t" href="/past-events">Past Events</a>
+  </div>
 {{ end }}
