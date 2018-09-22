@@ -11,7 +11,9 @@
         <div class="single-banner flex items-center justify-center" style="background-image: url('/img/{{ .Params.banner }}')">
           <div class="single-site-title">{{.Site.Title}}</div>
           <header class="single-header">
-            <h1>{{ .Title | markdownify }}</h1>
+            {{block "single_title" . }}
+              <h1>{{ .Title | markdownify }}</h1>
+            {{ end }}
           </header>
         </div>
       </div>

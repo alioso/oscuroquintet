@@ -1,11 +1,15 @@
+{{ define "single_title" }}
+  <div class="text-lg">Past</div>
+  <h1 class="mt-0">Events</h1>
+  <a class="block mt-2 pt-2 border-t lowercase text-lg" href="/events">View Upcoming Events</a>
+{{ end }}
+
 {{ define "single_content" }}
-  {{ range last 3 ((where .Site.Pages "Section" "events").ByParam "start_date") }}
-  {{ $t := (.Param "end_date" | time) }}
-    {{ if  le ($t) (now.Unix) }}
+  {{ $events := where (.Site.RegularPages.ByParam "start_date") "Section" "events" }}
+  {{ range $events }}
+    {{ $t := (time .Params.end_date) }}
+    {{ if  le ($t.Unix) (now.Unix) }}
       {{ .Render "summary" }}
     {{ end }}
   {{ end }}
-  <div class="mt-8 text-right">
-    <a class="inline-block pt-2 border-t" href="/events">Upcoming Events</a>
-  </div>
 {{ end }}
