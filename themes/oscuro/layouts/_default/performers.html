@@ -1,9 +1,7 @@
-{{ define "single_title" }}
-  <h1>Performers</h1>
-{{ end }}
-
 {{ define "single_content" }}
-  {{ range .Pages }}
-    {{ .Render "performer-teaser" }}
-  {{ end }}
+  <div class="flex flex-wrap mx-4">
+    {{ range .Pages.ByParam "weight" }}
+      {{ .Render "performer-teaser" }}
+    {{ end }}
+  </div>
 {{ end }}

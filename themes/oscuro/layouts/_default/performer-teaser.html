@@ -1,8 +1,12 @@
-<article>
-  <h2 class="mb-2"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
-  <div>{{ .Params.instrument }}</div>
-  {{ with .Resources.GetMatch "*" }}
-    {{ $image := .Resize "100x" }}
-    <img src="{{$image.RelPermalink}}" />
-  {{ end }}
-</article>
+<a class="block w-1/2 md:w-1/3 px-4 hover:no-underline hover:text-l-text" href="{{ .RelPermalink }}">
+  <article>
+    {{ with .Resources.GetMatch "*" }}
+      {{ $image := .Resize "150x" }}
+      <img class="w-full" src="{{$image.RelPermalink}}" />
+    {{ end }}
+    <div class="text-center">
+      <h2 class="mt-0 text-lg">{{ .Title | markdownify }}</h2>
+      <div class="text-black font-normal text-sm">{{ .Params.instrument }}</div>
+    </div>
+  </article>
+</a>

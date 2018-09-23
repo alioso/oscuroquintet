@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Performers poo on Oscuro Quintet</title>
+    <title>Performers on Oscuro Quintet</title>
     <link>http://example.org/performers/</link>
-    <description>Recent content in Performers poo on Oscuro Quintet</description>
+    <description>Recent content in Performers on Oscuro Quintet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Aug 2018 11:02:00 -0400</lastBuildDate>
@@ -27,6 +27,25 @@
       
       <guid>http://example.org/performers/joseph-kauffman/</guid>
       <description>Joseph began his violin studies at the age of five and studied with Yayoi Numazawa, James Lyon, Max Zorin, and Eduard Schmieder. He holds violin performance degrees from Pennsylvania State University (BM) and Temple University (MM) with distinction. As violinist and violist, Joseph has appeared as a soloist with Temple Symphony Orchestra, Williamsport Chamber Orchestra, and Pennsylvania State University Philharmonic and has performed on prestigious concert stages in the US, France, Austria, Chile, Germany, and Russia.</description>
+    </item>
+    
+    <item>
+      <title>Antonio Boyadjian</title>
+      <link>http://example.org/performers/antonio-boyadjian/</link>
+      <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
+      
+      <guid>http://example.org/performers/antonio-boyadjian/</guid>
+      <description>Antonio is a Latin Grammy nominated pianist, composer, producer, and sound engineer. Native of Argentina, he began his music studies with piano and guitar and attended National Conservatory of Buenos Aires and National University of the Arts.
+He studied tango and jazz with Dino Saluzzi, Manuel Fraga, Anibal Gluzman, and Hernan Possetti. Antonio writes and produces original music for film, theater, and commercials. In 2006 he joined an electrotango group Tanghetto and released seven albums and received two Gardel Awards and a Latin Grammy nomination.</description>
+    </item>
+    
+    <item>
+      <title>Jason Klinke</title>
+      <link>http://example.org/performers/jason-klinke/</link>
+      <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
+      
+      <guid>http://example.org/performers/jason-klinke/</guid>
+      <description>Guitarist and piano technician Jason began studying the guitar at age 11 and attended Temple University’s Esther Boyer College of Music. He studied under the likes of Tom Giacobetti, Terrell Stafford, Bruce Barth, and Joseph Federico. He has worked with many of the area’s top jazz musicians including Larry McKenna, Byron Landham, Akiko Tsuruga, and Mike Boone and has performed at the Philadelphia Museum of Art, Barnes Museum, Keswick Theater, Center City Jazz Fest, Bethlehem Music Fest, Somers Point Jazz Fest, and Jazz Bridge Concerts.</description>
     </item>
     
   </channel>

@@ -1,5 +1,5 @@
 ---
-title: "Performers poo"
+title: "Performers"
 type: "page"
 banner: "performers.jpg"
 ---
