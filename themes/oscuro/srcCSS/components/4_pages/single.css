@@ -5,19 +5,24 @@
   position: relative;
 }
 
-.single-right {
-  height: 85%;
-}
-
 .single-right main {
-  margin-top: 50px;
-  padding-right: 30px;
-  overflow: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 90%;
   width: 100%;
+}
+
+@screen lg {
+  .single-right {
+    height: 85%;
+  }
+
+  .single-right main {
+    height: 90%;
+    overflow: auto;
+    padding-right: 30px;
+    margin-top: 50px;
+  }
 }
 
 .single-right main .wrapper {
@@ -38,12 +43,17 @@
 }
 
 .single-banner {
-  height: 100%;
   background-image: url('/img/oscuro-front.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   position: relative;
+}
+
+@screen lg {
+  .single-banner {
+    height: 100%;
+  }
 }
 
 .single-banner::after {
