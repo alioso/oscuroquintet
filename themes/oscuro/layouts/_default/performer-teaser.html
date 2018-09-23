@@ -1,4 +1,8 @@
 <article>
   <h2 class="mb-2"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
   <div>{{ .Params.instrument }}</div>
+  {{ with .Resources.GetMatch "*" }}
+    {{ $image := .Resize "100x" }}
+    <img src="{{$image.RelPermalink}}" />
+  {{ end }}
 </article>
