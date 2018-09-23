@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oscuro Quintet</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Oscuro Quintet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Aug 2018 11:02:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shinjoo Cho</title>
+      <link>http://example.org/performers/shinjoo-cho/</link>
+      <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
+      
+      <guid>http://example.org/performers/shinjoo-cho/</guid>
+      <description>Bandoneonist, pianist, and accordionist Shinjoo began her piano study in Korea at the age of five and in the US, she studied with Peter Coraggio and Ingrid Clarfield and attended Westminster Choir College in Princeton, NJ. Her path to the music of other cultures began with studies in Serbia and Argentina. Shinjoo has collaborated with international music, dance, and film artists in multi-disciplinary projects as an improviser and an ensemble musician, with performances in the US, Canada, Korea, and Argentina.</description>
+    </item>
+    
+    <item>
+      <title>Joseph Kauffman</title>
+      <link>http://example.org/performers/joseph-kauffman/</link>
+      <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
+      
+      <guid>http://example.org/performers/joseph-kauffman/</guid>
+      <description>Joseph began his violin studies at the age of five and studied with Yayoi Numazawa, James Lyon, Max Zorin, and Eduard Schmieder. He holds violin performance degrees from Pennsylvania State University (BM) and Temple University (MM) with distinction. As violinist and violist, Joseph has appeared as a soloist with Temple Symphony Orchestra, Williamsport Chamber Orchestra, and Pennsylvania State University Philharmonic and has performed on prestigious concert stages in the US, France, Austria, Chile, Germany, and Russia.</description>
+    </item>
+    
+    <item>
+      <title>An Event</title>
+      <link>http://example.org/events/07-25/</link>
+      <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
+      
+      <guid>http://example.org/events/07-25/</guid>
+      <description>FOSSCON brings together users of Free and Open Source Software from a wide variety of fields.</description>
+    </item>
+    
+    <item>
+      <title>An Event</title>
+      <link>http://example.org/events/08-25/</link>
+      <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
+      
+      <guid>http://example.org/events/08-25/</guid>
+      <description>FOSSCON brings together users of Free and Open Source Software from a wide variety of fields.</description>
+    </item>
+    
+    <item>
+      <title>Test Event</title>
+      <link>http://example.org/events/09-10/</link>
+      <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
+      
+      <guid>http://example.org/events/09-10/</guid>
+      <description>SaltConf18 is a gathering designed to help systems administrators, cloud architects, enterprise IT operators, site reliability engineers, IT directors, and IT managers more effectively manage and secure data center infrastructure using SaltStack event-driven automation.</description>
+    </item>
+    
+  </channel>
+</rss>

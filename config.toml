@@ -6,22 +6,27 @@ theme = "oscuro"
 [[menu.main]]
 weight = 1
 name = "About"
-url = "/about"
+url = "/about/"
 
 [[menu.main]]
 weight = 2
-name = "Events"
-url = "/events"
+name = "Performers"
+url = "/performers/"
 
 [[menu.main]]
 weight = 3
-name = "Media"
-url = "/media"
+name = "Events"
+url = "/events/"
 
 [[menu.main]]
 weight = 4
+name = "Media"
+url = "/media/"
+
+[[menu.main]]
+weight = 5
 name = "Contact"
-url = "/contact"
+url = "/contact/"
 
 # params
 [params]

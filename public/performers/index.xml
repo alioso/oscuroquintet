@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performers poo on Oscuro Quintet</title>
+    <link>http://example.org/performers/</link>
+    <description>Recent content in Performers poo on Oscuro Quintet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Aug 2018 11:02:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://example.org/performers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shinjoo Cho</title>
+      <link>http://example.org/performers/shinjoo-cho/</link>
+      <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
+      
+      <guid>http://example.org/performers/shinjoo-cho/</guid>
+      <description>Bandoneonist, pianist, and accordionist Shinjoo began her piano study in Korea at the age of five and in the US, she studied with Peter Coraggio and Ingrid Clarfield and attended Westminster Choir College in Princeton, NJ. Her path to the music of other cultures began with studies in Serbia and Argentina. Shinjoo has collaborated with international music, dance, and film artists in multi-disciplinary projects as an improviser and an ensemble musician, with performances in the US, Canada, Korea, and Argentina.</description>
+    </item>
+    
+    <item>
+      <title>Joseph Kauffman</title>
+      <link>http://example.org/performers/joseph-kauffman/</link>
+      <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
+      
+      <guid>http://example.org/performers/joseph-kauffman/</guid>
+      <description>Joseph began his violin studies at the age of five and studied with Yayoi Numazawa, James Lyon, Max Zorin, and Eduard Schmieder. He holds violin performance degrees from Pennsylvania State University (BM) and Temple University (MM) with distinction. As violinist and violist, Joseph has appeared as a soloist with Temple Symphony Orchestra, Williamsport Chamber Orchestra, and Pennsylvania State University Philharmonic and has performed on prestigious concert stages in the US, France, Austria, Chile, Germany, and Russia.</description>
+    </item>
+    
+  </channel>
+</rss>

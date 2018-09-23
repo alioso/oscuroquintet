@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/performers/shinjoo-cho/</loc>
+    <lastmod>2018-08-16T11:02:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/performers/joseph-kauffman/</loc>
+    <lastmod>2018-08-16T11:02:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/events/07-25/</loc>
+    <lastmod>2018-08-16T11:02:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/events/08-25/</loc>
+    <lastmod>2018-08-16T11:02:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/events/09-10/</loc>
+    <lastmod>2018-08-16T11:02:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/events/</loc>
+    <lastmod>2018-08-16T11:02:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2018-08-16T11:02:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/past-events/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/performers/</loc>
+    <lastmod>2018-08-16T11:02:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
