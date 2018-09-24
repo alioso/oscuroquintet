@@ -70,6 +70,10 @@
   transition: opacity 225ms ease-in-out;
 }
 
+.single-left.no-overlay .single-banner::after {
+  display: none;
+}
+
 .single-header {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;

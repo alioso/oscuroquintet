@@ -3,11 +3,7 @@ title: "Shinjoo Cho"
 instrument: "Bandoneòn"
 date: "2018-08-16T11:02:00-04:00"
 website: "http://shinjoocho.com/"
-banner: "shinjoo-cho.jpg"
 weight: 1
-resources:
-- name: header
-  src: images/shinjoo-cho.jpg
 ---
 Bandoneonist, pianist, and accordionist Shinjoo began her piano study in Korea at the age of five and in the US, she studied with Peter Coraggio and Ingrid Clarfield and attended Westminster Choir College in Princeton, NJ. Her path to the music of other cultures began with studies in Serbia and Argentina. Shinjoo has collaborated with international music, dance, and film artists in multi-disciplinary projects as an improviser and an ensemble musician, with performances in the US, Canada, Korea, and Argentina.
 

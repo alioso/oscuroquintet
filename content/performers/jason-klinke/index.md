@@ -2,9 +2,8 @@
 title: "Jason Klinke"
 instrument: "Guitar"
 date: "2018-08-16T11:02:00-04:00"
-banner: "jason-klinke.jpg"
 website: "http://www.klinkemusic.com"
-weight: 3
+weight: 4
 ---
 Guitarist and piano technician Jason began studying the guitar at age 11 and attended Temple University’s Esther Boyer College of Music. He studied under the likes of Tom Giacobetti, Terrell Stafford, Bruce Barth, and Joseph Federico. He has worked with many of the area’s top jazz musicians including Larry McKenna, Byron Landham, Akiko Tsuruga, and Mike Boone and has performed at the Philadelphia Museum of Art, Barnes Museum, Keswick Theater, Center City Jazz Fest, Bethlehem Music Fest, Somers Point Jazz Fest, and Jazz Bridge Concerts.
 

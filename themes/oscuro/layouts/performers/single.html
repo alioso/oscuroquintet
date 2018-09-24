@@ -1,0 +1,13 @@
+{{ define "cond_bar" }}
+  <div class="single-left w-full lg:w-1/3 h-full p-4 no-overlay">
+{{ end }}
+
+{{ define "single_left" }}
+ <span></span>
+{{ end }}
+
+{{ define "single_content" }}
+  <h1>{{.Title}}</h1>
+  <strong>{{.Params.instrument}}</strong> {{if .Params.website }}/ <a target="_blank" href={{.Params.website}}>Website</a>{{ end }}
+  {{.Content}}
+{{ end }}
