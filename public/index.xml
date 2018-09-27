@@ -69,29 +69,38 @@ Benjamin currently thrives in the field of music education as the music departme
     
     <item>
       <title>An Event</title>
-      <link>http://example.org/events/07-25/</link>
+      <link>http://example.org/events/event1/</link>
       <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
       
-      <guid>http://example.org/events/07-25/</guid>
+      <guid>http://example.org/events/event1/</guid>
       <description>FOSSCON brings together users of Free and Open Source Software from a wide variety of fields.</description>
     </item>
     
     <item>
       <title>An Event</title>
-      <link>http://example.org/events/08-25/</link>
+      <link>http://example.org/events/event3/</link>
       <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
       
-      <guid>http://example.org/events/08-25/</guid>
+      <guid>http://example.org/events/event3/</guid>
       <description>FOSSCON brings together users of Free and Open Source Software from a wide variety of fields.</description>
     </item>
     
     <item>
       <title>Test Event</title>
-      <link>http://example.org/events/09-10/</link>
+      <link>http://example.org/events/event2/</link>
       <pubDate>Thu, 16 Aug 2018 11:02:00 -0400</pubDate>
       
-      <guid>http://example.org/events/09-10/</guid>
+      <guid>http://example.org/events/event2/</guid>
       <description>SaltConf18 is a gathering designed to help systems administrators, cloud architects, enterprise IT operators, site reliability engineers, IT directors, and IT managers more effectively manage and secure data center infrastructure using SaltStack event-driven automation.</description>
+    </item>
+    
+    <item>
+      <title>asd</title>
+      <link>http://example.org/events/event4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/events/event4/</guid>
+      <description>content here</description>
     </item>
     
   </channel>
