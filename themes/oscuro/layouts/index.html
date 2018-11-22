@@ -37,6 +37,15 @@
           </a>
         </div>
       </div>
+      <div class="home-right-a w-full flex items-center justify-center uppercase text-xl p-2 pt-4">
+        <a class="video-link" href="/performers">
+          <video class="video w-full h-full" autoplay playsinline muted loop preload poster="http://i.imgur.com/xHO6DbC.png">
+            <source src='{{ "/vids/all.mp4" | relURL }}' />
+          </video>
+          {{ partial "0_svgs/title.html" (dict "svg_title" "Performers") }}
+          <span class="video-link-text">Performers</span>
+        </a>
+      </div>
       <div class="home-right-b w-full flex items-center justify-center uppercase text-xl p-2">
         <a class="mx-2" href="/contact">Contact</a> &#8226; <a href="/contact" class="mx-2">Press Kit</a>
       </div>

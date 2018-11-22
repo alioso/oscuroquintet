@@ -1,9 +1,15 @@
 .home-grid {
-  /* height: 100%; */
+  max-width: 1680px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-right {
-  height: 85%;
+  height: 55%;
+}
+
+.home-right-a {
+  height: 30%;
 }
 
 .home-right-b {

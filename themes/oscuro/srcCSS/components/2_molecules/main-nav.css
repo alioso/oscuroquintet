@@ -7,3 +7,8 @@
     color: #333;
   }
 }
+
+.past-events-wlc .main-nav-link.events-wlc,
+.videos-wlc .main-nav-link.media-wlc {
+  @apply text-orange;
+}

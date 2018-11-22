@@ -1,0 +1,16 @@
+{{ define "single_title" }}
+  <div class="text-lg lower">Media</div>
+  <h1 class="mt-0">Video</h1>
+  <a class="block mt-2 pt-2 border-t lowercase text-lg" href="/media">	&rsaquo; Audio</a>
+{{ end }}
+
+{{ define "single_content" }}
+  <div class="flex flex-wrap mx-4">
+    <div class="w-full mb-4 flex justify-center">
+      <iframe src="https://player.vimeo.com/video/2553310" width="100%" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <div class="w-full mb-4 flex justify-center">
+        <iframe width="532" height="300" src="https://www.youtube.com/embed/d54Q15HwkiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+{{ end }}

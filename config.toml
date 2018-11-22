@@ -5,26 +5,31 @@ theme = "oscuro"
 
 [[menu.main]]
 weight = 1
+name = "Home"
+url = "/"
+
+[[menu.main]]
+weight = 2
 name = "About"
 url = "/about/"
 
 [[menu.main]]
-weight = 2
+weight = 3
 name = "Performers"
 url = "/performers/"
 
 [[menu.main]]
-weight = 3
+weight = 4
 name = "Events"
 url = "/events/"
 
 [[menu.main]]
-weight = 4
+weight = 5
 name = "Media"
 url = "/media/"
 
 [[menu.main]]
-weight = 5
+weight = 6
 name = "Contact"
 url = "/contact/"
 
