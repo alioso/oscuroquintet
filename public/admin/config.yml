@@ -9,7 +9,7 @@ collections:
 
   - name: "events" # Used in routes, e.g., /admin/collections/blog
     label: "Events" # Used in the UI
-    folder: "content/events/:slug" # The path to the folder where the documents are stored
+    folder: "content/events/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "_index.md" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -41,3 +41,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        required: false
